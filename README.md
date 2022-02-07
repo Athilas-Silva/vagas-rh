@@ -1,27 +1,24 @@
 # VagasRh
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 13.2.2.
+Primeiro projeto desenvolvido usando o Angular, página simples de um RH com 3 vagas na área de programação.
 
-## Development server
+## Ferramentas utilizadas: 🛠️👨‍💻🛠️
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+* VsCode
+* HTML, CSS, JS
+* Typescript
+* Angular
 
-## Code scaffolding
+##
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+Imagens do projeto:
 
-## Build
+![mural](https://user-images.githubusercontent.com/71888055/152865069-ff843bf7-2b92-4fe2-a1da-35755ca367bd.PNG)
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+![painel](https://user-images.githubusercontent.com/71888055/152865339-c48445ae-e805-44cf-8fdf-2aa4b79874b2.PNG)
 
-## Running unit tests
+##
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+###  ⚠️⚠️ Ao baixar o repositório ⚠️⚠️
 
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+Para ver aplicação rodando na sua máquina, basta apenas baixar o repositório, abrir no VsCode e colocar o seguinte comando: `npm install` para instalar todas as dependências do projeto. Após terminar de instalar as depedências, digite o comando `ng server` e ela irá abrir no seguinte endereço: `http://localhost:4200`. Abra outro terminal e coloque o seguinte comando para mostrar as informações da API: `json-server --watch vagas-bd.json`.
